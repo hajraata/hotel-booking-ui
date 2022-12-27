@@ -1,0 +1,85 @@
+/* .booking-div {
+  background-color: antiquewhite;
+} */
+
+.booking-details {
+  background-color: rgb(255, 245, 234);
+  width: 70vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: -20vh 15vw 0vh 15vw;
+  /*position: fixed;
+  top: 80vh;
+  left: 20vw;
+  */
+}
+
+.booking-heading {
+  color: orange;
+  text-align: center;
+  padding: 3% 0%;
+  /* background-color: black; */
+}
+
+.booking-dates,
+.booking-guests {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  /* background-color: black; */
+}
+
+.date-picker {
+  width: 40%;
+}
+
+.date-picker:focus {
+  outline: orange;
+}
+
+.booking-buttons {
+  margin: auto;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  font-size: 15px;
+  width: 10vw;
+  height: 30px;
+  background-color: orange;
+  border: white;
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 2vh;
+}
+
+.search-btn:hover {
+  background-color: white;
+  border: orange;
+  color: orange;
+  box-shadow: 4px 4px 10px bisque;
+}
+
+@media screen and (max-width: 1007px) {
+  .booking-details {
+    width: 80vw;
+    margin: -20vh 10vw 0vh 10vw;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .search-btn {
+    width: fit-content;
+    padding: 1vh 1vw;
+  }
+}

@@ -1,0 +1,84 @@
+.header-div {
+  background-color: rgb(254, 229, 198);
+}
+
+.header-container {
+  background-image: url("https://images.unsplash.com/photo-1439130490301-25e322d88054?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+  height: 90vh;
+  width: 80vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: white;
+}
+
+.navBar-menu {
+  width: 70vw;
+  margin: auto;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  /* background-color: black; */
+}
+
+.hotel-name {
+  margin: 10vh 0vw 0vh 5vw;
+  font-family: "Brush Script MT";
+  font-size: 50px;
+}
+
+/* .navBar-list {
+  width: 80vw;
+  height: 10vh;
+  margin: auto;
+} */
+
+.navBar-list li {
+  display: inline;
+  margin: 0px 0px 0px 2vw;
+}
+
+.link-nav {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.link-nav:hover {
+  color: orange;
+}
+
+@media screen and (max-width: 1007px) {
+  .header-container {
+    width: 100vw;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .navBar-menu {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-container {
+    height: 70vh;
+  }
+
+  .navBar-list {
+    font-size: 10px;
+  }
+
+  .hotel-name {
+    font-size: 25px;
+  }
+}
