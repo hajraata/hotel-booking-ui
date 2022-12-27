@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hajraata/hotel-booking-ui/static/css/main.64d278fd.css",
+    "main.js": "/hajraata/hotel-booking-ui/static/js/main.90250da7.js",
+    "index.html": "/hajraata/hotel-booking-ui/index.html",
+    "main.64d278fd.css.map": "/hajraata/hotel-booking-ui/static/css/main.64d278fd.css.map",
+    "main.90250da7.js.map": "/hajraata/hotel-booking-ui/static/js/main.90250da7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64d278fd.css",
+    "static/js/main.90250da7.js"
+  ]
+}
