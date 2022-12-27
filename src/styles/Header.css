@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 500px) {
   .header-container {
-    height: 70vh;
+    height: 60vh;
   }
 
   .navBar-list {
