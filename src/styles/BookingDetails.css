@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .booking-details {
+    width: 100vw;
+  }
   .search-btn {
     width: fit-content;
     padding: 1vh 1vw;
