@@ -79,8 +79,8 @@
 
 @media screen and (max-width: 640px) {
   .booking-details {
-    width: 98vw;
-    margin: -10vh 1vw 0vh 1vw;
+    width: 94vw;
+    margin: -10vh 3vw 0vh 3vw;
   }
   .search-btn {
     width: fit-content;
